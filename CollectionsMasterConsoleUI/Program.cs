@@ -35,7 +35,7 @@ namespace CollectionsMasterConsoleUI
                 2) Second way, Create a custom method (scroll to bottom of page to find ⬇⬇⬇)
             */
             
-            //Array.Reverse(numbers);
+            Array.Reverse(numbers);
 
             Console.WriteLine("All Numbers Reversed:");
 
@@ -166,7 +166,7 @@ namespace CollectionsMasterConsoleUI
         {
             Random rng = new Random();
 
-            while (numberList.Count <= 50)
+            while (numberList.Count < 50)
             {
                 numberList.Add(rng.Next(0, 51));
             }
