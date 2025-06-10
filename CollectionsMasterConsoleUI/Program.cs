@@ -36,10 +36,16 @@ namespace CollectionsMasterConsoleUI
             */
             
             Array.Reverse(numbers);
+            Console.WriteLine("Built-in Reverse");
+            NumberPrinter(numbers);
+            
+            ReverseArray(numbers);
+            Console.WriteLine("Custom Reverse:");
+            NumberPrinter(numbers);
 
             Console.WriteLine("All Numbers Reversed:");
 
-            Console.WriteLine("---------REVERSE CUSTOM------------");
+            
 
             Console.WriteLine("-------------------");
 
